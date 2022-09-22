@@ -1,0 +1,17 @@
+<div id="app"></div>
+
+<euu-section-title-bar></euu-section-title-bar>
+<euu-section-main-message></euu-section-main-message>
+
+<euu-editor-sections>
+  <euu-section *ngIf="" [name]="section.name">
+    <p>im describer</p>
+    <euu-logo></euu-logo>
+    <euu-input formControlName="titleBar" label="Title bar"></euu-input>
+  </euu-section>
+  <euu-section [name]="section.name">
+    <p>im describer</p>
+    <euu-logo></euu-logo>
+    <euu-input formControlName="titleBar" label="Title bar"></euu-input>
+  </euu-section>
+</euu-editor-sections>

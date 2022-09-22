@@ -1,0 +1,6 @@
+<div>
+
+  <euu-section-title-bar *ngIf="options.withTitle" [title]="title" (titleChanged)="handleTitleChange()" (onClose)="handleClose()">
+  <euu-section-description *ngIf="options.withDescription" [title]="title" (titleChanged)="handleTitleChange()" (onClose)="handleClose()">
+  <ng-content></ng-content>
+</div>
